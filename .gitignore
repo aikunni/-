@@ -1,0 +1,11 @@
+a={'张炜':'《艾约堡秘史》','徐则臣':'《北上》','韩少功':'《修改过程》','叶兆言':'《刻骨铭心》','叶弥':'《风流图卷》'}
+print(len(a))
+
+for i in a.keys():
+    print(i,end='  ')
+print()
+for i in a.values():
+    print(i,end='  ')
+print()
+for i in a.items():
+    print(i,end='  ')
